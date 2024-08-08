@@ -64,7 +64,7 @@ body {
 }
 
 .section-2-1 {
-    border: 2px solid rgb(34, 168, 0);
+
     text-align: center;
     margin: 0px 200px;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 .section-3-1-1 {
-    border: 2px solid rgb(42, 0, 231);
+
     border-radius: 10px;
     padding: 30px;
     text-align: center;
@@ -192,7 +192,6 @@ body {
     }
 
     .section-2-1 {
-        border: 2px solid rgb(34, 168, 0);
         text-align: center;
         margin: 16px;
     }
@@ -222,7 +221,6 @@ body {
     }
 
     .section-3-1-1 {
-        border: 2px solid rgb(42, 0, 231);
         border-radius: 10px;
         padding: 30px;
         margin: 0px 20px;
