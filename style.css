@@ -430,7 +430,7 @@ body {
 }
 
 
-@media screen and (min-width:400px) and (max-width:576px) {
+@media screen and (min-width:401px) and (max-width:576px) {
     .all-section {
         margin: 20px;
     }
@@ -667,7 +667,7 @@ body {
 
 @media screen and (min-width:577px) and (max-width:900px) {
     .all-section {
-        margin: 30px;
+        margin: 50px;
     }
 
 
@@ -905,7 +905,7 @@ body {
 /* complete */
 @media screen and (min-width:901px) {
     .all-section {
-        margin: 50px;
+        margin: 50px 100px;
     }
 
 
@@ -996,7 +996,7 @@ body {
 
     .section-3-1 {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 30px;
     }
 
@@ -1022,14 +1022,14 @@ body {
 
     /* section-4 */
     .section-4 {
-        text-align: center;
+        text-align: left;
         padding-left: 30px;
         padding-right: 30px;
     }
 
     .section-4-1 {
-        display: flex;
-        flex-direction: column-reverse;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
         align-items: center;
         gap: 50px;
@@ -1037,7 +1037,7 @@ body {
 
     .section-4-1-1 {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
 
     }
@@ -1068,7 +1068,7 @@ body {
     .section-4-1-2 p {
         font-size: 14px;
         font-weight: 500;
-        text-align: center;
+        text-align: left;
     }
 
 
