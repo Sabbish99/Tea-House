@@ -5,7 +5,6 @@ body {
 
 .all-section {
     margin: 50px 200px;
-    border: 2px solid red;
 }
 
 
@@ -428,30 +427,12 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
-@media screen and (min-width:401px) and (max-width:576px) {
+@media screen and (min-width:400px) and (max-width:576px) {
     .all-section {
         margin: 20px;
-        border: 2px solid red;
     }
 
 
@@ -687,7 +668,6 @@ body {
 @media screen and (min-width:577px) and (max-width:900px) {
     .all-section {
         margin: 30px;
-        border: 2px solid red;
     }
 
 
@@ -922,11 +902,10 @@ body {
 
 }
 
-
+/* complete */
 @media screen and (min-width:901px) and (max-width:1100px) {
     .all-section {
         margin: 50px;
-        border: 2px solid red;
     }
 
 
@@ -1058,7 +1037,7 @@ body {
 
     .section-4-1-1 {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 30px;
 
     }
@@ -1089,7 +1068,7 @@ body {
     .section-4-1-2 p {
         font-size: 14px;
         font-weight: 500;
-        text-align: justify;
+        text-align: center;
     }
 
 
@@ -1109,7 +1088,7 @@ body {
         font-size: 14px;
         padding-left: 16px;
         padding-right: 16px;
-        text-align: justify;
+        text-align: center;
     }
 
 
@@ -1161,11 +1140,11 @@ body {
 
 }
 
-
+/* complete */
 @media screen and (min-width:1101px) {
     .all-section {
         margin: 50px;
-        border: 2px solid red;
+
     }
 
 
@@ -1215,8 +1194,8 @@ body {
 
     .section-1-rating {
         position: absolute;
-        top: 350px;
-        right: 250px;
+        top: 300px;
+        right: 200px;
     }
 
     .section-1-img img {
@@ -1281,15 +1260,18 @@ body {
 
 
     /* section-4 */
+
+
+
     .section-4 {
-        text-align: center;
+        text-align: left;
         padding-left: 30px;
         padding-right: 30px;
     }
 
     .section-4-1 {
-        display: flex;
-        flex-direction: column-reverse;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
         align-items: center;
         gap: 50px;
@@ -1297,7 +1279,7 @@ body {
 
     .section-4-1-1 {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
 
     }
@@ -1328,7 +1310,7 @@ body {
     .section-4-1-2 p {
         font-size: 14px;
         font-weight: 500;
-        text-align: justify;
+        text-align: left;
     }
 
 
@@ -1348,7 +1330,7 @@ body {
         font-size: 14px;
         padding-left: 16px;
         padding-right: 16px;
-        text-align: justify;
+        text-align: center;
     }
 
 
