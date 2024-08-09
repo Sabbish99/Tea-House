@@ -157,6 +157,33 @@ body {
     font-weight: 500;
 }
 
+/* section-5 */
+.section-5 {
+    border: 2px solid blue;
+    margin: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-5-1 h1 {
+    font-size: 45px;
+}
+
+.section-5-1 p {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -331,6 +358,27 @@ body {
     .section-4-1-2 p {
         font-size: 14px;
         font-weight: 500;
+        text-align: justify;
+    }
+
+
+
+    /* section-5 */
+    .section-5 {
+        border: 2px solid blue;
+        margin: 16px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .section-5-1 h1 {
+        font-size: 28px;
+    }
+
+    .section-5-1 p {
+        font-size: 14px;
+        padding-left: 16px;
+        padding-right: 16px;
         text-align: justify;
     }
 
